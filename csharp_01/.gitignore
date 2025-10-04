@@ -1,0 +1,47 @@
+# Visual Studio and .NET specific files
+.vs/
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+*.suo
+*.user
+*.sln.docstates
+
+# NuGet packages
+packages/
+!packages/build/
+!packages/*.targets
+*.nupkg
+
+# Test results
+[Tt]est[Rr]esult*/
+
+# Build logs and temporary files
+BuildLog.*
+*.log
+*.pdb
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.scc
+*.vspscc
+*.vssscc
+
+# Other common files to ignore
+*.bak
+*.cache
+*.temp
+*.tmp
+*.userprefs
+
+# Rider specific files
+.idea/
+
+# Visual Studio Code specific files
+.vscode/
